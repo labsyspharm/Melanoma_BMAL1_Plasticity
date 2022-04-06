@@ -40,6 +40,9 @@ function scatterCellTypes(Matrix_CellTypes,Type_Codes,Type_Names,Centroids,varar
 %   pixel_size
 %   Default: cell types will be colored sequentially based on MATLAB 
 %   default
+%   
+%   Outputs
+%   Scatter Plot of Different Cell Types
 
 number_inputs = nargin; 
 if number_inputs == 5
